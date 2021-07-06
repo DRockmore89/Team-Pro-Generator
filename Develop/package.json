@@ -9,14 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "DRockmore89"
+    "url": "https://github.com/DRockmore89/Team-Pro-Generator.git"
   },
   "author": "Donald Rockmore",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "fs": "*",
     "inquirer": "^8.0.0",
     "node": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
