@@ -16,7 +16,7 @@ const manager = new Manager;
 const engineer = new Engineer;
 const intern = new Intern;
 
-const OUTPUT_DIR = path.resolve(__dirname, "template_output")
+const OUTPUT_DIR = path.resolve(__dirname, "temp_output")
 const outputPath = path.join(OUTPUT_DIR, "team_index.html");
 
 const render = require("./Assets/create_html");
