@@ -19,8 +19,11 @@ This application is covered under the MIT license.
 [Description](#Description"Description")
 
 [Installation](#Installation"Installation")
+
 [Usage](#Usage"Usage")
+
 [Licence](#Licence"Licence")
+
 [Test](#Test"Test")
 
 ### Description
