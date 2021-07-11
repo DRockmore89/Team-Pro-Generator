@@ -5,7 +5,7 @@ const templatesDir = path.resolve(__dirname, "../templates");
 
 const render = employees => {
   const html = [];
-  const htmlP = [];
+  const htmlp = [];
 
   html.push(employees
   //this creates a new array html with all elements that are equal to role Manager

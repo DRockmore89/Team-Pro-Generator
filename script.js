@@ -8,9 +8,9 @@ const path = require("path");
 
 //to avoid errors such as "Manager is not defined" and
 //"TypeError: Manager is not a constructor", import classes
-const Manager = require("./assets/Manager");
-const Engineer = require("./assets/Engineer");
-const Intern = require("./assets/Intern");
+const Manager = require("./Assets/Manager");
+const Engineer = require("./Assets/Engineer");
+const Intern = require("./Assets/intern");
 
 const manager = new Manager;
 const engineer = new Engineer;
@@ -19,7 +19,7 @@ const intern = new Intern;
 const OUTPUT_DIR = path.resolve(__dirname, "template_output")
 const outputPath = path.join(OUTPUT_DIR, "team_index.html");
 
-const render = require("./assets/create_html");
+const render = require("./Assets/create_html");
 
 const allEmployees = [];
 const idArray = [];
